@@ -2,7 +2,10 @@
   "name": "steam-game-library-analyser",
   "version": "0.0.0",
   "license": "MIT",
-  "scripts": {},
+  "scripts": {
+    "build": "nx run web:build",
+    "start": "nx serve web"
+  },
   "private": true,
   "devDependencies": {
     "@nx/cypress": "17.3.0",
